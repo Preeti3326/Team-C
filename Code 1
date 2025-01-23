@@ -1,0 +1,45 @@
+# Team-C
+Code for basic arithmetic.
+Here’s a simple Python program for performing basic arithmetic operations (addition, subtraction, multiplication, and division):
+
+# Function for addition
+def add(a, b):
+    return a + b
+
+# Function for subtraction
+def subtract(a, b):
+    return a - b
+
+# Function for multiplication
+def multiply(a, b):
+    return a * b
+
+# Function for division
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Division by zero is not allowed!"
+
+# Main program
+print("Basic Arithmetic Operations")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+print("\nResults:")
+print(f"Addition: {add(num1, num2)}")
+print(f"Subtraction: {subtract(num1, num2)}")
+print(f"Multiplication: {multiply(num1, num2)}")
+print(f"Division: {divide(num1, num2)}")
+
+How It Works:
+
+1. Define functions for each operation.
+
+
+2. Take input from the user.
+
+
+3. Call the appropriate functions and display the results.
+
+You can run this code in any Python environment to see it in action.
